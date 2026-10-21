@@ -1,0 +1,22 @@
+[
+  {
+    "question": "How does a user log in?",
+    "gold_files": ["auth.py"]
+  },
+  {
+    "question": "How are passwords hashed?",
+    "gold_files": ["auth.py"]
+  },
+  {
+    "question": "What happens when you divide by zero?",
+    "gold_files": ["calculator.py"]
+  },
+  {
+    "question": "How is the running total updated?",
+    "gold_files": ["calculator.py"]
+  },
+  {
+    "question": "cannot divide by zero",
+    "gold_files": ["calculator.py"]
+  }
+]

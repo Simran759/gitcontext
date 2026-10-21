@@ -1,0 +1,19 @@
+numpy>=1.24
+rank-bm25>=0.2.2
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+
+# Optional - install for REAL semantic embeddings + cross-encoder reranking AND
+# local answer generation (transformers + torch ship with sentence-transformers).
+# Without it the project still runs on built-in offline fallbacks.
+# sentence-transformers>=2.6
+
+# Answer generation is LOCAL by default (no API key):
+#   - uses Ollama if a server is running at localhost:11434, else
+#   - a small local transformers model (Qwen2.5-0.5B-Instruct) on CPU.
+# The Anthropic path is opt-in only (GITCONTEXT_LLM=anthropic + key); not required.
+# anthropic>=0.39
+
+# Dev - run the test suite with `pytest`
+# pytest>=8
