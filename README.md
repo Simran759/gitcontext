@@ -1,7 +1,7 @@
 # GitContext
 
 A minimal, **end-to-end RAG developer copilot** over a code repository. It indexes
-source code and docs, then answers questions about the repo with **hybrid retrieval
+source code and docs, then answers questions about the repo with **hybrid** retrieval
 + **reranking** and **citations** back to real files — and it runs **100%** locally, with
 no **API key** (local embeddings, local reranker, local LLM).
 
